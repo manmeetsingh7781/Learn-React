@@ -18,15 +18,17 @@ const navbar = <nav>
         <li>Community</li>
     </ul>
 </nav>
+
+
 const page = <div>
-                <hr/>
-                <h1>This component is from JSX.js</h1>
-                <p>This is just a text</p>
-                {element}
-                {element2}  
-                {navbar}
-                <hr/>             
-            </div>
+        <hr/>
+        <h1>This component is from JSX.js</h1>
+        <p>This is just a text</p>
+        {element}
+        {element2}  
+        {navbar}
+        <hr/>             
+    </div>
 
 export default function RenderComponent() {
     return page;
