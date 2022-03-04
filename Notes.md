@@ -1,7 +1,7 @@
 # Why React?
 
 ## Declarative: What should be done?
-- Example: Creating a element just by declaring a tag inside a ReactDOM.render
+- Example: Creating a element just by declaring a tag inside a ReactDOM.render, using JSX.
 ``ReactDOM.render(<h1>This is a Declarative way to program</h1>, document.body);``
 
 ## Imperative: How it should be done?
@@ -12,3 +12,7 @@
     h4.className = "header_text";
     document.body.appendChild(h4);
 ``
+----------------------------------------------------------------
+
+- JSX : JavaScript XML
+- JSX is a syntax extension to JavaScript that allows you to write HTML inside your JavaScript code.

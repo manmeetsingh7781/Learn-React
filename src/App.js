@@ -1,5 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar.js';
+import RenderComponent from './Components/JSX.js';
+
 
 
 // Impeative way to create a component
@@ -21,6 +23,7 @@ function App() {
           <li>Second Item</li>
           <li>Third Item</li>
         </ul>
+        <RenderComponent />
       </div>
     </>
   );
