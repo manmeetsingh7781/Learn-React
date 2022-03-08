@@ -1,6 +1,36 @@
+body , html, .App {
+  color: white;
+  background-color: #282c34;
+  box-sizing: border-box;
+}
+
 
 .App-logo {
   pointer-events: none;
+}
+
+.nav-logo {
+  width: 40px;
+  margin-right: 2%;
+}
+
+.myList > li {
+  padding: 10px;
+  list-style: none;
+  font-size: 1.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+/* this is a bullet style of ul before list item */
+.myList li::before {
+  content: '\2023';    /* Character you want to display as a list */
+  color: aqua;
+  font-weight: 900;
+  margin-right: 0.5em;
+  font-size: 1em;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
 }
 
 @media (prefers-reduced-motion: no-preference) {

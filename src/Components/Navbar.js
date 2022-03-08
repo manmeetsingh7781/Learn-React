@@ -1,14 +1,14 @@
 
 // To create a React component import React
 import {React} from 'react';
-
+import logo from "../Images/logo.png"
 
 // Create a React functional Component
 // re-useable component
-function Navbar(props) {
+function Navbar() {
     return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <a className="navbar-brand">{props.title}</a>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src={logo} className="nav-logo"/>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -22,9 +22,6 @@ function Navbar(props) {
         </li>
         <li className="nav-item">
           <a className="nav-link" >Pricing</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" >Disabled</a>
         </li>
       </ul>
     </div>
