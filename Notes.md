@@ -46,3 +46,23 @@ const page = (
 - Composable means I can compose components together to make a bigger component.
 
 
+----------------------------------------------------------------
+functions that creates components of HTML tags are called Custom Component;
+first letter of function name should Capital letter
+for example:
+```function Page (props) {
+        return (
+        <div>
+            <hr/>
+            <h1>This component is from JSX.js</h1>
+            <p>This is just a text</p> 
+            {props.navbar}
+            <hr/>             
+        </div>)
+    }
+```
+
+
+`usage = <Page props={...}/>`
+
+React functional Components take these JSX syntax and render Navtive HTML components to the page.

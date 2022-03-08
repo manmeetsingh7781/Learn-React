@@ -3,10 +3,6 @@ import Navbar from './Components/Navbar.js';
 import RenderComponent from './Components/JSX.js';
 
 
-
-
-
-
 function App() {
 
   // Impeative way to create a component

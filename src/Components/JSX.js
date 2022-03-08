@@ -20,16 +20,18 @@ const navbar = <nav>
 </nav>
 
 
-const page = <div>
+// Custom Component
+function Page (props) {
+    return (
+    <div>
         <hr/>
         <h1>This component is from JSX.js</h1>
-        <p>This is just a text</p>
-        {element}
-        {element2}  
-        {navbar}
+        <p>This is just a text</p> 
+        {props.navbar}
         <hr/>             
-    </div>
+    </div>)
+}
 
 export default function RenderComponent() {
-    return page;
+    return <Page navbar={navbar}/>;
 }
