@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar.js';
 import RenderComponent from './Components/JSX.js';
-
+import MainContent from './Components/MainContent'
 
 function App() {
 
@@ -16,15 +16,7 @@ function App() {
   return (
     <>
       <Navbar title="Singh"/>
-      <div className="App">
-        <h1>Hello World from React!</h1>
-        <ul>
-          <li>First Item</li>
-          <li>Second Item</li>
-          <li>Third Item</li>
-        </ul>
-        <RenderComponent />
-      </div>
+      <MainContent />
     </>
   );
 }
